@@ -16,7 +16,7 @@ on:
         type: choice
         options: ["ubuntu-latest", "windows-latest"]
       artifact_python:
-        description: "Which Python version to deploy"
+        description: "Which python version to deploy"
         required: true
         default: "3.8"
         type: choice
